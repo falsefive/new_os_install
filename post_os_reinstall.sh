@@ -36,3 +36,16 @@ cp ~/Downloads/vim-colors-solarized/colors/solarized.vim ~/.vim/colors
 
 
 # Copy configurations
+echo "Copying VIM configuration..."
+if [ ! -e "~/.vimrc" ]
+then
+    cp config/my_vimrc ~/.vimrc
+else
+    echo "~/.vimrc exists, backing up old .vimrc..."
+    mv ~/.vimrc ~/.vimrc.OLD
+    cp config/my_vimrc ~/.vimrc
+fi
+
+echo "Adding bash configuration..."
+cat config/my_bashrc >> ~/.bashrc
+source ~/.bashrc
