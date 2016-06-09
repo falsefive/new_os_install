@@ -1,0 +1,4 @@
+# falsefive custom bash configuration
+# Last modified 20160609
+
+export TERM=screen-256color-bce

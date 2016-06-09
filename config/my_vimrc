@@ -1,0 +1,25 @@
+" falsefive personal VIM configuration
+" Last modified 20160609
+
+" Solarized dark colorscheme
+syntax enable
+set background=dark
+colorscheme solarized
+
+" Editor options
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab " use spaces instead of tabs.
+set smarttab " tab key inserts 'tab stops', and backspace deletes tabs.
+set shiftround " tab/shifting moves to closest tabstop.
+set autoindent " Match indents on new lines.
+set smartindent " Intelligently indent/de-dent new lines based on rules.
+
+set term=xterm
+set backspace=indent,eol,start
+fixdel
+set nowrap
+set ruler
+set showcmd
+set showmode
