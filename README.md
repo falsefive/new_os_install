@@ -35,6 +35,15 @@ of prompting for them. Great when installing Steam!
 Exfat is a filesystem that works with multiple OS', nice to have in a
 multi-architecture household.
 
+### Gnome Session Flashback
+Enable Gnome classic desktop.
+
+### Alacarte Menu Manager
+Use this to mess with your menu entries and categories.
+
+### 'Hack' Font
+Looks sharp and easy on the eyes.
+
 ### [Atom.io](https://atom.io/)
 Runs wget and downloads the .deb file to your downloads, then uses gdebi to
 install it. This editor is a great replacement for gedit and is very 

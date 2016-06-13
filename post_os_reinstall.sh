@@ -16,6 +16,14 @@ apt-get install gdebi
 echo "Installing exfat utilities..."
 apt-get install exfat-utils exfat-fuse
 
+echo "Installing Gnome classic desktop..."
+apt-get install gnome-session-flashback
+
+echo "Installing Alacarte menu manager..."
+apt-get install alacarte
+
+echo "Installing 'Hack' font..."
+apt-get install fonts-hack-ttf
 
 # Run wget installations
 echo "Installing atom.io editor..."
@@ -49,3 +57,4 @@ fi
 echo "Adding bash configuration..."
 cat config/my_bashrc >> ~/.bashrc
 source ~/.bashrc
+
